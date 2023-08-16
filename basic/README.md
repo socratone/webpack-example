@@ -4,7 +4,7 @@ build시 `mode` 를 `development` 로 하면 `bundle.js` 의 주석을 보고 �
 
 ## Build Script
 
-`webpack --config webpack.config.js --mode development`
+`npx webpack --config webpack.config.js --mode development`
 
 ## 확인 가능한 주석 예제
 
