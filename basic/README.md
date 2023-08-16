@@ -1,6 +1,6 @@
 # Basic
 
-build시 `mode` 를 `development` 로 하면 bundle.js의 주석을 보고 어떤 모듈이 포함되어 있는지 확인할 수 있다.
+build시 `mode` 를 `development` 로 하면 `bundle.js` 의 주석을 보고 어떤 모듈이 포함되어 있는지 확인할 수 있다.
 
 ## Build Script
 
@@ -8,7 +8,7 @@ build시 `mode` 를 `development` 로 하면 bundle.js의 주석을 보고 어�
 
 ## 확인 가능한 주석 예제
 
-dist/bundle.js 중에서
+`dist/bundle.js` 중에서
 
 ```
 /***/ "./node_modules/lodash/lodash.js":
