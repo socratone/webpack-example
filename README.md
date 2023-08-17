@@ -8,3 +8,4 @@ webpack을 이해하기 위한 코드입니다.
 2. [CSS Loader](https://github.com/socratone/webpack-example/tree/main/css-loader)
 3. [SASS Loader](https://github.com/socratone/webpack-example/tree/main/sass-loader)
 4. [Image Loader](https://github.com/socratone/webpack-example/tree/main/image-loader)
+5. [Font Loader](https://github.com/socratone/webpack-example/tree/main/font-loader)
