@@ -1,7 +1,7 @@
 # SASS Loader
 
 `sass-loader` 를 앞에 넣어주면 된다.\
-`rules` 에 두 가지를 넣어서 `.css` 와 `.scss` 를 사용할 수 있다.
+`rules` 에 두 가지를 넣어서 `.css` 와 `.scss` 를 불러올 수 있다.
 
 ```
 module: {
