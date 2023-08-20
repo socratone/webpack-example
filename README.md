@@ -12,3 +12,4 @@ webpack을 이해하기 위한 코드입니다.
 6. [Multiple Bundle](https://github.com/socratone/webpack-example/tree/main/multiple-bundle)
 7. [HTML Plugin](https://github.com/socratone/webpack-example/tree/main/html-plugin)
 8. [Dev Server](https://github.com/socratone/webpack-example/tree/main/dev-server)
+9. [Optimization](https://github.com/socratone/webpack-example/tree/main/optimization)
