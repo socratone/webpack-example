@@ -13,3 +13,4 @@ webpack을 이해하기 위한 코드입니다.
 7. [HTML Plugin](https://github.com/socratone/webpack-example/tree/main/html-plugin)
 8. [Dev Server](https://github.com/socratone/webpack-example/tree/main/dev-server)
 9. [Optimization](https://github.com/socratone/webpack-example/tree/main/optimization)
+10. [Dynamic Import](https://github.com/socratone/webpack-example/tree/main/dynamic-import)
