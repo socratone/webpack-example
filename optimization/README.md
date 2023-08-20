@@ -11,7 +11,15 @@ optimization: {
 }
 ```
 
-comment 처리한 `BundleAnalyzerPlugin` 을 활성화 시키면 시각적으로 bundle 사이즈를 확인할 수 있다.
+comment 처리한 `BundleAnalyzerPlugin` 을 활성화 시키고 build하면 시각적으로 bundle 사이즈를 확인할 수 있다.
+
+**optimization을 하지 않았을 때**
+
+![pre optimization](./docs/images/pre-optimization.webp)
+
+**optimization을 했을 때**
+
+![optimization](./docs/images/optimization.webp)
 
 ## Build Script
 
