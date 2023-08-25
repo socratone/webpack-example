@@ -1,6 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { PurgeCSSPlugin: PurgeCssPlugin } = require('purgecss-webpack-plugin');
+const glob = require('glob');
+
+const PATHS = {
+  src: path.join(__dirname, 'src'),
+};
 
 module.exports = {
   entry: {
@@ -44,5 +50,9 @@ module.exports = {
       filename: 'about.html',
     }),
     new MiniCssExtractPlugin(),
+    // 사용하지 않는 css class를 제거해준다.
+    new PurgeCssPlugin({
+      paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
+    }),
   ],
 };
