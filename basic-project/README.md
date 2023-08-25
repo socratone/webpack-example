@@ -2,13 +2,19 @@
 
 Basic Project를 띄워서 변경된 내용이 browser에 바로 반영되도록 한다.
 
-## Dev Script
+## Scripts
 
-`npx webpack serve --mode development --open`
+### `yarn dev`
 
-## Build Script
+개발
 
-`npx webpack --config webpack.config.js --mode development`
+### `yarn build:dev`
+
+개발 빌드
+
+### `yarn build:prod`
+
+프로덕션 빌드
 
 ## Tree Shaking
 
