@@ -20,6 +20,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
+        // style-loader 대신 MiniCssExtractPlugin을 사용하면 css-loader로 불러온 code를 .css 파일로 만든다.
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
